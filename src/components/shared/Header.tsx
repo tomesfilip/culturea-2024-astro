@@ -11,7 +11,7 @@ const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
 
   return (
-    <header className="w-full bg-white border-b-2">
+    <header className="w-full bg-transparent">
       <nav className="relative z-10 flex flex-col items-center h-24 py-6 xl:flex-row xl:justify-between xl:py-4 xl:px-12 xl:h-auto">
         <LogoLink />
         {/* <HamburgerButton handleToggleMenu={() => setMenuActive(!menuActive)} />

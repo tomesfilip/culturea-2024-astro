@@ -1,22 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import SectionAbout from '../sections/SectionAbout';
-import SectionBlogs from '../sections/SectionBlogs';
-import SectionHistory from '../sections/SectionHistory';
-import SectionLanding from '../sections/SectionLanding';
-import SectionLandingTexts from '../sections/SectionLandingTexts';
-import SectionMap from '../sections/SectionMap';
 import SectionOrganizer from '../sections/SectionOrganizer';
-import SectionProgram from '../sections/SectionProgram';
-import SectionTeam from '../sections/SectionTeam';
 
 import '../styles/headingStyles.css';
 ---
 
 <Layout title="Culturea 2023">
-  <div>
-    <p class="text-center p-10 py-30 text-9xl font-headline uppercase">Připravujeme web</p>
-  </div>
+  <SectionAbout slot="hero" />
+
   <!-- <SectionLanding client:only />
   <SectionLandingTexts />
   <SectionAbout />
